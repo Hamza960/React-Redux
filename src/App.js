@@ -16,7 +16,7 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/vaccination" element={<Vaccination />} />
-          <Route path="*" element={<NoPage />} />
+          <Route path="/nopage" element={<NoPage />} />
        
       </Routes>
     </BrowserRouter>
